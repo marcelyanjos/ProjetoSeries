@@ -1,4 +1,4 @@
-namespace projetoeries
+namespace projetoseries
 {
     public abstract class EntidadeBase
     {

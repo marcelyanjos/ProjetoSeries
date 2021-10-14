@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
-using series.Interfaces;
+using projetoseries.Interfaces;
 
 namespace projetoseries.Interfaces
 {
-    public class SerieRepositorio : IRepositorio<Series>
+    public class SerieRepositorio : IRepositorio<Serie>
     {
         private List<Serie> listaSerie = new List<Serie>();
 
-        public void Atualiza(int id, Series objeto)
+        public void Atualiza(int id, Serie objeto)
         {
             listaSerie[id] = objeto;
         }
@@ -16,11 +16,11 @@ namespace projetoseries.Interfaces
         {
             listaSerie[id].Excluir();
         }
-        public void Insere(Series entidade)
+        public void Insere(Serie entidade)
         {
             listaSerie.Add(objeto);
         }
-        public List<Series> Lista()
+        public List<Serie> Lista()
         {
             return listaSerie;
         }
@@ -30,7 +30,7 @@ namespace projetoseries.Interfaces
         }
         public Serie RetornaPorId(int Id)
         {
-            return listaSerie[id]
+            return listaSerie[id];
         }
     }
 }

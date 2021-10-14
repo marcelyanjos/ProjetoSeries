@@ -1,14 +1,19 @@
 using System;
+using projetoseries.Interfaces;
 
 namespace projetoseries
 {
+    // herança
     public class Serie : EntidadeBase
     {
+        // atributos
         private Genero Genero { get; set; }
         private string Titulo { get; set; }
         private string Descricao { get; set; }
         private int Ano { get; set; }
         private bool Excluido {get; set;}
+
+        // métodos 
         public Serie(int id, Genero genero, string titulo, string descricao, int ano)
         {
             this.Id = id;
@@ -25,6 +30,7 @@ namespace projetoseries
             retorno += "Titulo: "+this.Titulo + Environment.NewLine;
             retorno += "Descrição: "+this.Descricao + Environment.NewLine;
             retorno += "Ano de Inicio: "+this.Descricao + Environment.NewLine;
+            retorno += "Excluido: "+this.Excluido;
             return retorno;
         }
         public string retornaTitulo(){
@@ -32,6 +38,9 @@ namespace projetoseries
         }
          public int retornaId(){
             return this.Id;
+        }
+         public bool retornaExcluido(){
+            return this.Excluido;
         }
         public void Exclui(){
             this.Excluido = true;

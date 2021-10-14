@@ -1,0 +1,5 @@
+C:\Users\marcely.anjos\Documents\projetoseries\obj\Debug\net5.0\projetoseries.csproj.AssemblyReference.cache
+C:\Users\marcely.anjos\Documents\projetoseries\obj\Debug\net5.0\projetoseries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marcely.anjos\Documents\projetoseries\obj\Debug\net5.0\projetoseries.AssemblyInfoInputs.cache
+C:\Users\marcely.anjos\Documents\projetoseries\obj\Debug\net5.0\projetoseries.AssemblyInfo.cs
+C:\Users\marcely.anjos\Documents\projetoseries\obj\Debug\net5.0\projetoseries.csproj.CoreCompileInputs.cache
